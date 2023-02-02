@@ -1,0 +1,40 @@
+.nav-container {
+  display: flex;
+  height: 60px;
+  background-color: #ffffff30;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-container {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+}
+.logo-title {
+  font-family: 'roboto';
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.scores-container {
+  margin-right: 100px;
+  display: flex;
+  margin-right: 50px;
+}
+.scores-label {
+  margin-right: 30px;
+  font-family: 'roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .logo-container {
+    margin-left: 10px;
+  }
+  .scores-container {
+    margin-right: 10px;
+  }
+  .scores-label {
+    margin-right: 10px;
+  }
+}

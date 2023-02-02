@@ -1,0 +1,21 @@
+.game-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  background-size: cover;
+}
+.emojis-container {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 950px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 576px) {
+  .emojis-container {
+    margin-right: 30px;
+    justify-content: none;
+  }
+}
